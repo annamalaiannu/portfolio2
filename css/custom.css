@@ -1,0 +1,203 @@
+body {
+    padding-top: 70px;
+    font-family: Open Sans;
+    font-size: 18px;
+    background-color: white;
+  }
+  
+  .signature {
+    background: white;
+    font-family: "Caveat";
+    font-size: 200%;
+    text-align: center;
+    position: fixed;
+    top: 9px;
+    width: 100%;
+  }
+  
+  a {
+    color: #a0a0a0;
+  }
+  
+  a:hover {
+    color: #1a1a1a;
+  }
+  
+  .signature h1 {
+    font-family: "Caveat";
+    font-size: 120%;
+    margin-bottom: 0px;  
+  }
+  
+  .main-nav, #sections {
+    position: relative;
+  }
+  
+  .main-nav {
+    height: 50px;
+    z-index: 150;
+    box-shadow: 0 2px 0 #e0e0e0;
+    background-color: white;
+  }
+  
+  .main-nav-scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;  
+  }
+  
+  #section1 {
+      color: black;
+  }
+  
+  #section1 .col-md-4 {
+      text-align: left;
+      /*margin-top: 40px;*/
+      /*margin-bottom: 40px;*/
+    display: inline-block;
+    line-height: 28px;
+  }
+  
+  #section1 .col-md-8 {
+      /*margin-top: 40px;*/
+      /*margin-bottom: 40px;*/
+  }
+  
+  #section1 .col-md-12 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .col-md-8 img {
+      max-width: 100%;
+      float: none;
+  
+  }
+  
+  .content {
+    padding: 5%;
+    margin: 5% 0% 5%;
+  }
+  
+  .white-font {
+    color: white;
+  }
+  .overlay{
+    /*background-color: gold;*/
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 88.5%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s all;
+    border-radius: 8px;
+  }
+  
+  .overlay:hover{
+    opacity: 1;
+  }
+  
+  .project-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 700;
+    transition: 0.7s all;
+  }
+  
+  .overlay:hover .project-name{
+    transform: translate(-50%, -50%);
+  }
+  
+  .momento-overlay{
+    background-color: rgba(66, 55, 59, 0.5);
+    box-shadow: 0 11px 43px 0 rgba(66, 55, 59, 0.5);
+  }
+  
+  .navbar-inverse {
+      background-color: #fffffff0;
+      border-color: #333;
+  }
+  
+  .navbar-inverse .navbar-nav li a {
+      color: black;
+  }
+  
+  .navbar-collapse, .navbar-header {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  
+  h1.logo {
+      margin: 5px 15px 0 0;
+      display: inline-block;
+      font-size: 0;
+      vertical-align: top;
+  }
+  
+  h1.logo a {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+      color: black;
+      font-size: 18px;
+      text-decoration: none;
+      line-height: 40px;
+      font-weight: 700;
+      background: #b3cccc;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .centered { 
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .font-nav {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 200;
+    font-family: "Open Sans";
+  }
+  
+  .font-prof {
+    font-size: 85%;
+    font-style: normal;
+    font-weight: 350;
+    font-family: "Open Sans";
+    line-height:  25px;
+  }
+  
+  .sign, #profile, .logos {
+   text-align: center;
+  }
+  
+  #profile img {
+    width: 100;
+  }
+  .sign h1 {
+    font-family: "Caveat";
+    font-size: 240%;
+  }

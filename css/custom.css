@@ -6,6 +6,11 @@ body {
     color: #202020;
     background-color: white;
   }
+
+  #name_title{
+    font-family:caveat;
+     font-size : 21px
+  }
   
   .signature {
     background: white;
@@ -18,7 +23,7 @@ body {
   }
   
   a {
-    color: #a0a0a0;
+    color: black;
   }
   
   a:hover {

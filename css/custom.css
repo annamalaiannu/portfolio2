@@ -1,7 +1,7 @@
 body {
     padding-top: 70px;
-    font-family: Open Sans;
-    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    font-size: 19px;
     background-color: white;
   }
   
@@ -201,3 +201,13 @@ body {
     font-family: "Caveat";
     font-size: 240%;
   }
+
+  h1 {
+    font-family: "cabin" 'Times New Roman', Times, serif 
+   }
+   h2 {
+    font-family: "cabin" 'Times New Roman', Times, serif 
+   }
+   h3 {
+    font-family: "cabin" 'Times New Roman', Times, serif 
+   }

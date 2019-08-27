@@ -47,7 +47,7 @@ h1, .page-title h1, h2, .section-heading h2, h3, .probootstrap-card .probootstra
   /* margin: 1.414em 0 0.5em; */
   line-height: 1.2;
   font-weight: 300;
-  color: #4a525d;
+  /* color: #4a525d; */
 }
 
 h1, .page-title h1 {
@@ -631,8 +631,8 @@ a:hover, a:focus {
 	margin-top: 3%;
 	margin-left: 21%;
 	margin-right: 21%;
-	font-size: 19px;
-	color: black;
+	/* font-size: 19px;
+   color: black; */
 }
 
 #explaincontent p {

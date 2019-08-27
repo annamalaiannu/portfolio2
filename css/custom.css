@@ -2,6 +2,8 @@ body {
     padding-top: 70px;
     font-family: 'Helvetica Neue';
     font-size: 19px;
+    font-weight: normal;
+    color: #202020;
     background-color: white;
   }
   
@@ -198,7 +200,7 @@ body {
     width: 100;
   }
   .sign h1 {
-    font-family: "Caveat";
+   
     font-size: 240%;
   }
 

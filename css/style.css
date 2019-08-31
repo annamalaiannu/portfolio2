@@ -7,6 +7,23 @@
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
 
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('../fonts/helvetica/Helvetica\ Neu\ Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Thin';
+  src: url('../fonts/helvetica/HelveticaNeue\ Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Medium';
+  src: url('../fonts/helvetica/HelveticaNeue\ Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Regular';
+  src: url('../fonts/helvetica/HelveticaNeue.ttf') format('truetype');
+}
+
 html {
   overflow-x: hidden;
   font-size: 1em;
@@ -3136,10 +3153,48 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.photo-grid {
+  padding: 0;
+  margin: 0 10px;
+  height: 530px;
+  width: 360px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px 0 rgba(16, 16, 16, 0.1);
+}
+
 .photo-grid-text {
-  margin-top: -20px;
+  margin: -10px 20px;
 }
 
 .photo-strap {
   margin: 3rem 0;
+}
+
+.card-header {
+  height: 21px;
+  width: 313px;
+  text-align: left;
+  color: #202020;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.card-sub-header {
+  height: 24px;
+  opacity: 0.6;
+  color: #202020;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card-description {
+  height: 96px;
+  width: 320px;
+  color: #202020;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
 }

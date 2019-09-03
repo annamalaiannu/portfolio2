@@ -555,7 +555,7 @@ a:focus {
 }
 
 .probootstrap-section {
-  width: 70%;
+  width: 80%;
   position: relative;
   z-index: 2;
   margin: 0 auto;
@@ -648,6 +648,12 @@ a:focus {
 @media screen and (max-width: 768px) {
   .probootstrap-section {
     padding: 3em 0;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  #scheduler-content {
+    width: 80% !important;
   }
 }
 
@@ -3207,7 +3213,7 @@ h3 {
   margin: 1rem auto;
   opacity: 0.8;
   border-radius: 10px;
-  background-color: #d8d8d8;
+  background-color: #f3f3f3;
 }
 
 .challenge-content {
@@ -3232,7 +3238,7 @@ h3 {
 }
 
 #text-block {
-  width: 40%;
+  width: 63%;
   margin: 2rem auto;
 }
 

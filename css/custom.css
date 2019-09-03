@@ -134,3 +134,12 @@ h3 {
   margin: 1rem auto;
   margin-top: 0;
 }
+
+.para-text-opta {
+  margin: 2rem 0;
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.48px;
+  line-height: 1.5;
+}

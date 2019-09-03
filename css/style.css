@@ -774,6 +774,14 @@ a:focus {
   padding: 5em 0;
 }
 
+.probootstrap-social img {
+  opacity: 0.5;
+}
+
+.probootstrap-social img:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
   .probootstrap-footer {
     padding: 3em 0;
@@ -791,7 +799,7 @@ a:focus {
 }
 
 .probootstrap-footer .probootstrap-social {
-  float: right;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

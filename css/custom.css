@@ -8,6 +8,14 @@ ul {
   margin: 0;
 }
 
+.portfolio-title {
+  margin: 0 4rem;
+}
+
+.row #firstcolumn {
+  padding: 0;
+}
+
 .large-bold-heading {
   color: #404040;
   font-family: 'Cabin', sans-serif;
@@ -20,7 +28,7 @@ ul {
 .small-bold-label {
   font-family: 'Cabin', sans-serif;
   color: #202020;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.48px;
   line-height: 30px;
@@ -29,7 +37,7 @@ ul {
 .label-text {
   color: #404040;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.48px;
   line-height: 17px;
 }
@@ -49,7 +57,7 @@ ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   letter-spacing: 0.48px;
-  line-height: 21px;
+  line-height: 1.5;
 }
 
 .para-title {
